@@ -6,8 +6,7 @@ setup(
     description='',
     packages=find_packages(),  # Include sub-folders
     install_requires=[
-        'hashlib',
-        'pickle',
+
     ],
     include_package_data=True,  # Important for non-code files like images
 )

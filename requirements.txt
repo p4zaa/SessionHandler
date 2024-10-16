@@ -1,5 +1,3 @@
-hashlib
-pickle
 pandas
 polars
 numpy
