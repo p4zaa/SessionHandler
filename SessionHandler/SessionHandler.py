@@ -1,7 +1,6 @@
 import hashlib
 import pickle
 
-
 class Session:
     def __init__(self, max_versions=5, hash_funcs=None):
         """
