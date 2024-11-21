@@ -33,7 +33,7 @@ class Session:
             self._data[key] = value
             self._hashes[key] = new_hash
 
-    def get(self, key):
+    def get(self, key, default):
         """
         Get a variable's value from the session.
 
@@ -43,7 +43,7 @@ class Session:
         Returns:
         The value associated with the key, or None if the key doesn't exist.
         """
-        return self._data.get(key)
+        return self._data.get(key, default)
 
     def undo(self, key):
         """
