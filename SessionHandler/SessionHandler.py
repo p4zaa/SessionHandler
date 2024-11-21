@@ -33,7 +33,7 @@ class Session:
             self._data[key] = value
             self._hashes[key] = new_hash
 
-    def get(self, key, default):
+    def get(self, key, default=None):
         """
         Get a variable's value from the session.
 
